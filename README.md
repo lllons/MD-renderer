@@ -8,9 +8,10 @@ actually writes: syntax-highlighted **code blocks**, proper **headings**, safe
 native **Ollama** integration with a **built-in system prompt** that teaches the
 model how to format its answers.
 
-> 🧭 **Status: planning.** This repo currently holds the full project blueprint
-> (see [`docs/`](./docs)). No product code has been written yet — code samples in
-> the docs are illustrative examples only.
+> 🧭 **Status: Phase 1 in progress.** The full blueprint lives in [`docs/`](./docs),
+> and the first package — [`@md-renderer/core`](./packages/core), the Markdown →
+> sanitized-HTML engine — is now implemented and tested. Remaining phases are
+> planned; see the [roadmap](./docs/ROADMAP.md).
 
 ---
 

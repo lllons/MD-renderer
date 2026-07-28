@@ -20,15 +20,20 @@ own. For the per-feature phase assignments (all 100 features), see
 
 ## Phase 1 — Core renderer
 
-- [ ] `@md-renderer/core`: markdown-it pipeline → sanitized HTML.
-- [ ] Headings (slug ids, anchors, TOC, level clamp).
-- [ ] Code blocks: lang label, copy, filename header, line numbers, diff.
-- [ ] Highlighting (hljs default), Shiki behind a flag.
-- [ ] HTML: sanitize (DOMPurify) + ` ```html ` source view.
-- [ ] Unit tests incl. an XSS payload corpus.
+- [x] `@md-renderer/core`: markdown-it pipeline → sanitized HTML.
+- [x] Headings (slug ids, anchors, TOC, level clamp).
+- [x] Code blocks: lang label, copy, filename header, line numbers, diff.
+- [x] Highlighting (hljs default); pluggable `HighlightFn` so Shiki can slot in.
+- [x] HTML: sanitize (DOMPurify) + ` ```html ` source view.
+- [x] Unit tests incl. an XSS payload corpus (47 tests, jsdom).
 
 **Done when:** given a Markdown string, returns safe HTML matching the dialect;
-XSS corpus fully neutralized.
+XSS corpus fully neutralized. ✅ **Delivered.**
+
+> Follow-up (P1-tagged in `FEATURES.md`, deferred from this milestone to keep the
+> first implementation focused): math (KaTeX), footnotes, frontmatter, callouts,
+> definition lists. Highlighting is pluggable via `HighlightFn`; the concrete
+> Shiki "pretty mode" adapter lands with theming in Phase 3.
 
 ---
 
