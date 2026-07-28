@@ -18,6 +18,7 @@ portability strategy, and the phased roadmap. Companion docs:
 | [`MD_AI_FORMAT.md`](./MD_AI_FORMAT.md) | The exact Markdown dialect the renderer understands |
 | [`SYSTEM_PROMPT.md`](./SYSTEM_PROMPT.md) | The built-in system prompt that makes models emit that dialect |
 | [`ROADMAP.md`](./ROADMAP.md) | Milestones, phase checklists, and acceptance criteria |
+| [`FEATURES.md`](./FEATURES.md) | The full catalog of all 100 planned features, mapped to package + phase |
 
 > ⚠️ **Code in these docs is illustrative only.** Every snippet is an *example*
 > to make the design concrete — none of it is the shipped implementation.
@@ -130,6 +131,12 @@ flow and render pipeline.
 ---
 
 ## 4. Feature breakdown — the nuts and bolts
+
+> The subsections below describe the pillar features in depth. For the **complete
+> enumerated list of all 100 planned features** (core Markdown, media, code,
+> tables/data, math, diagrams, navigation, advanced extensions, and professional
+> documentation) — each mapped to its delivering package and roadmap phase — see
+> [`FEATURES.md`](./FEATURES.md).
 
 ### 4.1 Markdown rendering (core)
 

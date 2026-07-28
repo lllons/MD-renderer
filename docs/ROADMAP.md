@@ -2,7 +2,8 @@
 
 Phased milestones with checklists and acceptance criteria. Companion to
 [`PROJECT_PLAN.md`](./PROJECT_PLAN.md). Each phase is meant to be shippable on its
-own.
+own. For the per-feature phase assignments (all 100 features), see
+[`FEATURES.md`](./FEATURES.md).
 
 ---
 

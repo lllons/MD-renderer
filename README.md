@@ -42,7 +42,8 @@ MD-renderer/
 │  ├─ ARCHITECTURE.md     ← packages, render pipeline, streaming, Ollama proxy
 │  ├─ MD_AI_FORMAT.md     ← the Markdown dialect the renderer understands
 │  ├─ SYSTEM_PROMPT.md    ← the built-in system prompt
-│  └─ ROADMAP.md          ← phased milestones + acceptance criteria
+│  ├─ ROADMAP.md          ← phased milestones + acceptance criteria
+│  └─ FEATURES.md         ← full catalog of all 100 planned features
 │
 └─ packages/             (planned — see ARCHITECTURE.md)
    ├─ core/              framework-agnostic Markdown → safe HTML engine
@@ -61,6 +62,7 @@ MD-renderer/
 | [MD_AI_FORMAT](./docs/MD_AI_FORMAT.md) | The Markdown dialect spec |
 | [SYSTEM_PROMPT](./docs/SYSTEM_PROMPT.md) | The built-in prompt |
 | [ROADMAP](./docs/ROADMAP.md) | Phases and what "done" means |
+| [FEATURES](./docs/FEATURES.md) | All 100 planned features, mapped to package + phase |
 
 ## Planned stack
 
